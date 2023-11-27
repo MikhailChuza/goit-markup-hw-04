@@ -154,14 +154,20 @@ body {
 
 /* ============== MAIN ======================== */
 
-.section-layer {
-  background: #2e2f42;
-
+.hero {
+  max-width: 1440px;
   flex-shrink: 0;
   margin-left: auto;
   margin-right: auto;
   padding-top: 188px;
   padding-bottom: 188px;
+  background-color: #2e2f42;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url("../images/people-office.jpg");
+  background-size: cover;
 }
 
 .solutions {
