@@ -267,6 +267,7 @@ body {
 .sprite-benefits {
   display: flex;
   justify-content: center;
+  align-items: center;
   width: 264px;
   height: 112px;
   flex-shrink: 0;
