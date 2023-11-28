@@ -129,6 +129,18 @@ body {
   color: #404bbf;
 }
 
+.stripe:hover::after {
+  display: block;
+  width: 48px;
+  height: 4px;
+  border-radius: 2px;
+  position: absolute;
+  flex-direction: column;
+  margin-top: 20px;
+  background: #404bbf;
+  content: "";
+}
+
 .adress-text {
   font-style: normal;
 }
