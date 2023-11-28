@@ -181,6 +181,8 @@ body {
     ),
     url("../images/people-office.jpg");
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .solutions {
@@ -220,6 +222,7 @@ body {
 .push:hover,
 .push:focus {
   background: var(--OCEAN, #404bbf);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* ============== MAIN ======================== */
