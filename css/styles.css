@@ -468,8 +468,16 @@ body {
 
 /* ================ FOOTER ============================ */
 .layers {
-  background: var(--NAVY-BLUE, #2e2f42);
+  width: 1440px;
+  margin-right: auto;
+  margin-left: auto;
+  background: #2e2f42;
   padding: 100px 0;
+}
+
+.inline {
+  display: flex;
+  align-items: baseline;
 }
 
 .logo-white {
@@ -528,5 +536,8 @@ body {
 }
 .social-list-icon-footer {
   fill: #f4f4fd;
+}
+.footer-left {
+  margin-right: 120px;
 }
 /* ================ FOOTER ============================ */
