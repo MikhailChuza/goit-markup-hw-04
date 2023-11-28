@@ -71,6 +71,8 @@ img {
 
 .page-header {
   border-bottom: 1px solid #e7e9fc;
+  box-shadow: зі значенням 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .page-navigation {
@@ -135,8 +137,7 @@ body {
   height: 4px;
   border-radius: 2px;
   position: absolute;
-  flex-direction: column;
-  margin-top: 20px;
+  left: 0;
   background: #404bbf;
   content: "";
 }
